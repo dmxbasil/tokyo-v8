@@ -1,5 +1,5 @@
 
-  <a href=https:/t.me/imdb_autofilter_bot>ᴛᴏɴʏ sᴛᴀʀᴋ--ᴠ8</a>
+  <a href=https:/telegram.com/imdb_autofilter_bot>ᴛᴏɴʏ sᴛᴀʀᴋ--ᴠ8</a>
 </h1>
 
 
