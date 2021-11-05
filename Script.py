@@ -1,15 +1,16 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-my 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+    START_TXT = """𝑯𝒆𝒍𝒍𝒐 {},
+𝑴𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 <a href=https://t.me/{}>{}</a> 𝑰 𝒄𝒂𝒏 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒎𝒐𝒗𝒊𝒆𝒔𝒊𝒏 𝒈𝒓𝒐𝒖𝒑, 𝑱𝒖𝒔𝒕 𝒂𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒖𝒓 𝒈𝒓𝒐𝒖𝒑 𝒂𝒔 𝒂𝒅𝒎𝒊𝒏😍"""
+    HELP_TXT = """𝑯𝒆𝒚 {}
+𝑯𝒆𝒓𝒆 𝒊𝒔 𝒎𝒚 𝒉𝒆𝒍𝒑 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒔."""
+    ABOUT_TXT = """✯ ᴍʏ ɴᴀᴍᴇ » {}
+✯ ᴄʀᴇᴀᴛᴏʀ » <a href=https://t.me/dmx_bots/4>ᴛᴇᴀᴍ ᴅᴍx</a>
+✯ ʟɪʙʀᴀʀʏ » <a href=https://docs.pyrogram.org/>ᴘʏʀᴏɢʀᴀᴍ</a>
+✯ ʟᴀɴɢᴜᴀɢᴇ » <a href=https://www.python.org/>ᴘʏᴛʜᴏɴ</a>
+✯ ᴠᴇʀsɪᴏɴ » 3
+✯ ᴅᴀᴛᴀʙᴀsᴇ » <a href=https://www.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a>
+✯ sᴇʀᴠᴇʀ » <a href=https://signup.heroku.com/login>ʜᴇʀᴏᴋᴜ</a>
+✯ ᴍʏ sᴛᴀᴛᴜs » v8.0.2 [ ᴏɴ ʙᴇᴛᴀ ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/EvamariaTG/EvaMaria  
