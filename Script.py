@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """𝑯𝒆𝒍𝒍𝒐 {},
-𝑴𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 <a href=https://t.me/{}>{}</a> 𝑰 𝒄𝒂𝒏 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒎𝒐𝒗𝒊𝒆𝒔𝒊𝒏 𝒈𝒓𝒐𝒖𝒑, 𝑱𝒖𝒔𝒕 𝒂𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒖𝒓 𝒈𝒓𝒐𝒖𝒑 𝒂𝒔 𝒂𝒅𝒎𝒊𝒏😍"""
+𝑴𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 <a href=https://t.me/{}>{}</a> 𝑰 𝒄𝒂𝒏 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒎𝒐𝒗𝒊𝒆𝒔 𝒊𝒏 𝒈𝒓𝒐𝒖𝒑, 𝑱𝒖𝒔𝒕 𝒂𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒖𝒓 𝒈𝒓𝒐𝒖𝒑 𝒂𝒔 𝒂𝒅𝒎𝒊𝒏😍"""
     HELP_TXT = """𝑯𝒆𝒚 {}
 𝑯𝒆𝒓𝒆 𝒊𝒔 𝒎𝒚 𝒉𝒆𝒍𝒑 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒔."""
     ABOUT_TXT = """✯ ᴍʏ ɴᴀᴍᴇ » {}
@@ -12,75 +12,80 @@ class script(object):
 ✯ sᴇʀᴠᴇʀ » <a href=https://signup.heroku.com/login>ʜᴇʀᴏᴋᴜ</a>
 ✯ ᴍʏ sᴛᴀᴛᴜs » v8.0.2 [ ᴏɴ ʙᴇᴛᴀ ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+- 𝒓𝒆𝒂𝒍𝒍𝒚 𝒔𝒐𝒓𝒓𝒚 𝒊𝒂𝒎 𝒏𝒐𝒕 𝒓𝒆𝒂𝒅𝒚 𝒕𝒐 𝒈𝒊𝒗𝒆 𝒎𝒚 𝒔𝒐𝒖𝒄𝒓𝒆
+- 𝑮𝒓𝒐𝒖𝒑 - https://dmx_chating_2_0 
 
-<b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+<b>ᴄʀᴇᴀᴛᴏʀs »</b>
+- <a href=https://t.me/dmx_bots/4>ᴛᴇᴀᴍ ᴅᴍx</a>"""
+    MANUELFILTER_TXT = """ʜᴇʟᴘ » <b>Fɪʟᴛᴇʀs</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- 𝑴𝒂𝒏𝒖𝒍 𝑭𝒊𝒍𝒕𝒆𝒓 𝒊𝒔 𝒕𝒉𝒆 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒘𝒆𝒓𝒆 𝒖𝒔𝒆𝒓𝒔 𝒄𝒂𝒏 𝒔𝒆𝒕 𝒂𝒖𝒕𝒐 𝒓𝒆𝒑𝒍𝒊𝒆𝒔 𝒇𝒐𝒓 𝒑𝒂𝒓𝒕𝒊𝒄𝒖𝒍𝒂𝒓 𝒌𝒆𝒚𝒘𝒐𝒓𝒅𝒔 𝒂𝒏𝒅 𝒊 𝒘𝒊𝒍𝒍 𝒓𝒆𝒔𝒑𝒐𝒏𝒅 𝒘𝒉𝒆𝒏 𝒆𝒗𝒆𝒓 𝒕𝒉𝒂𝒕 𝒌𝒆𝒚𝒘𝒐𝒓𝒅 𝒇𝒐𝒖𝒏𝒅 𝒊𝒏 𝒚𝒐𝒖𝒓 𝒄𝒉𝒂𝒕..
 
-<b>NOTE:</b>
-1. eva maria should have admin privillage.
-2. only admins can add filters in a chat.
-3. alert buttons have a limit of 64 characters.
+<b>Nᴏᴛᴇ »</b>
+1. 𝑰𝒂𝒎 𝒔𝒉𝒐𝒖𝒍𝒅 𝒃𝒆 𝒂 𝒂𝒅𝒎𝒊𝒏 𝒐𝒇 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑
+2. 𝑶𝒏𝒍𝒚 𝒂𝒅𝒎𝒊𝒏𝒔 𝒄𝒂𝒏 𝒇𝒊𝒍𝒕𝒆𝒓 𝒊𝒏 𝒎𝒚 𝒑𝒎
+3. 𝑪𝒐𝒏𝒏𝒆𝒄𝒕 𝒈𝒓𝒐𝒖𝒑 𝒊𝒏 𝒎𝒚 𝒑𝒎 [𝒖𝒔𝒆 » `/connect - group id]\n𝒇𝒐𝒓 𝒆𝒙𝒂𝒎𝒑𝒍𝒆 `/connect -1234567890`
+4. 𝑨𝒍𝒆𝒓𝒕 𝒃𝒖𝒕𝒕𝒐𝒏𝒔 𝒉𝒂𝒗𝒆 𝒍𝒊𝒎𝒊𝒕 64 𝒄𝒉𝒂𝒓𝒂𝒄𝒕𝒆𝒓𝒔
 
-<b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
-    BUTTON_TXT = """Help: <b>Buttons</b>
+<b>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ »</b>
+• /filter ᴏʀ /add - <code>ᴀᴅᴅ ғɪʟᴛᴇʀ ɪɴ ɢʀᴏᴜᴘ</code>
+• /filters ᴏʀ /viewfilters - <code>ʟɪsᴛ ᴏғ ᴀʟʟ ғɪʟᴛᴇʀs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ</code>
+• /del - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ ғɪʟᴛᴇʀ ɪɴ ɢʀᴏᴜᴘ</code>
+• /delall - <code>ᴅᴇʟᴇᴛᴇ ᴡʜᴏʟᴇ ғɪʟᴛᴇʀs ɪɴ ɢʀᴏᴜᴘ (ᴀᴅᴍɪɴ ᴏɴʟʏ)</code>"""
+    BUTTON_TXT = """ʜᴇʟᴘ:» <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- ɪᴀᴍ sᴜᴘᴘᴏʀᴛᴇᴅ ᴏɴ ʙᴏᴛʜ ʙᴜᴛᴛᴏɴs (ᴜʀʟ , ᴀʟᴇʀᴛ)
 
-<b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format
+<b>ɴᴏᴛᴇ »</b>
+1. ᴛᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ sᴇɴᴅ ʙᴜᴛᴛᴏɴ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, sᴏ ᴀᴅᴅ ᴀɴʏ ᴛᴇxᴛ , ᴘʜᴏᴛᴏ,ᴇᴛᴄᴄ ᴏɴ ʙᴜᴛᴛᴏɴ ғɪʟᴛᴇʀɪɴɢ.
+2. ɪ sᴜᴘᴘᴏʀᴛ ᴏɴ ᴀɴʏ ᴍᴇᴅɪᴀ ᴛʜᴀᴛ ᴛᴇʟᴇɢʀᴀᴍ sᴜᴘᴘᴏʀᴛs
+3. ʙᴜᴛᴛᴏɴ sʜᴏᴜʟᴅ ʙᴇ ɪɴ ᴄᴏʀʀᴇᴄᴛ ᴍᴀʀᴋᴅᴏᴡɴ ғᴏʀᴍᴀᴛ
 
-<b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<b>Uʀʟ ʙᴜᴛᴛᴏɴs »</b>
+<code>[Button Text](buttonurl:https://t.me/dmx_chating)</code>
 
-<b>Alert buttons:</b>
+<b>Aʟᴇʀᴛ ʙᴜᴛᴛᴏɴs »</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """ʜᴇʟᴘ » <b>ᴀᴜᴛᴏ ғɪʟᴛᴇʀ</b>
 
-<b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
-2. make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
-    CONNECTION_TXT = """Help: <b>Connections</b>
+<b>ɴᴏᴛᴇ ᴛᴏ ɪɴᴅᴇx »</b>
 
-- Used to connect bot to PM for managing filters 
-- it helps to avoid spamming in groups.
+ʏᴏᴜ ᴅᴏɴᴛ ᴛʜɪɴᴋ ᴀʙᴏᴜᴛ ɪᴛ ʙᴇᴀᴄᴀᴜsᴇ ɪᴀᴍ ᴀʟʀᴇᴀᴅʏ ᴀᴅᴅᴇᴅ ᴍᴏʀᴇ ᴛʜᴀɴ 2ᴍ ғɪʟᴇs ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ sᴏ ʏᴏᴜ ᴅᴏɴᴛ ɴᴇᴇᴅ ᴛᴏ ᴀᴅᴅ ғɪʟᴇs ᴀɴʏᴍᴏʀᴇ
 
-<b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
+1. ᴍᴀᴋᴇ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ɪғ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ɪs ᴘʀɪᴠᴀᴛᴇ
+2. ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴅᴏᴇs ɴᴏᴛ ᴄᴏɴᴛᴀɪɴ ᴀɴʏ ᴘʀᴏɴ ᴏʀ ᴀɴʏ ғᴀᴋᴇ ғɪʟᴇs ( ɪғ ɪ ғɪɴᴅ ʟɪᴋᴇ ᴛʜᴀᴛ ɪ ᴡɪʟʟ ʙᴀɴ ʏᴏᴜ ɪɴ ᴍʏ ᴅʙ ᴀɴᴅ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴍʏ ғᴇᴅ)
+3. ᴛʜᴇɴ ғᴏʀᴡᴀʀᴅ ᴍᴇ ᴛʜᴇ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ᴡɪᴛɢ ғᴏʀᴡᴀʀᴅ ᴛᴀɢs (ǫᴜᴏᴛᴇs)
+ ɪ'ʟʟ ᴀᴅᴅ ᴀʟʟ ғɪʟᴇs ᴛᴏ ᴍʏ ᴅʙ"""
+    CONNECTION_TXT = """ʜᴇʟᴘ » <b>ᴄᴏɴɴᴇᴄᴛɪᴏɴs</b>
 
-<b>Commands and Usage:</b>
-• /connect  - <code>connect a particular chat to your PM</code>
-• /disconnect  - <code>disconnect from a chat</code>
-• /connections - <code>list all your connections</code>"""
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+- ᴜsᴇᴅ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ᴘᴍ ɪɴ ɢʀᴏᴜᴘ
+- ɪᴛ ʜᴇʟᴘs ᴛᴏ ᴘʀᴇᴠᴇɴᴛ ᴛʜᴇ ᴏᴠᴇʀ sᴘᴀᴍᴍɪɴɢ ᴏғ ɢʀᴏᴜᴘ
 
-<b>NOTE:</b>
-these are the extra features of Eva Maria
+<b>ɴᴏᴛᴇ »</b>
+1. ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴀᴅᴅ ᴀ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+3. ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ɪᴀᴍ ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ
+2. sᴇɴᴅ <code>/connect (ɢʀᴏᴜᴘ ɪᴅ)</code> ᴛᴏ ᴄᴏɴɴᴇᴄᴛ
 
-<b>Commands and Usage:</b>
-• /id - <code>get id of a specifed user.</code>
-• /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+<b>ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ᴜsᴀɢᴇ »</b>
+• /connect  - <code>ᴄᴏɴɴᴇᴄᴛ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴛᴏ ᴍʏ ᴘᴍ</code>
+• /disconnect  - <code>ᴅɪssᴄᴏɴɴᴇᴄᴛ ᴀ ᴄʜᴀᴛ</code>
+• /connections - <code>ʟɪsᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴs</code>"""
+    EXTRAMOD_TXT = """ʜᴇʟᴘ »<b>ᴇxᴛʀᴀ ᴍᴏᴅs</b>
+
+<b>ɴᴏᴛᴇ »</b>
+ᴛʜᴇsᴇ ᴀʀᴇ sᴏᴍᴇ ᴇxᴛʀᴀ ᴍᴏᴅs ᴛʜᴀᴛ ɪ ʜᴀᴠᴇ
+
+<b>ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ᴜsᴀɢᴇ »</b>
+• /id - <code>ɢᴇᴛ ɪᴅ ᴏғ ᴀ sᴘᴇᴄɪғᴇᴅ ᴜsᴇʀ</code>
+• /info  - <code>ɢᴇᴛ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ</code>
+• /imdb  - <code>ɢᴇᴛ ғɪʟᴍ ɪɴғᴏ ɪɴ ɪᴍᴅʙ sᴏᴜᴄʀᴇ</code>
+• /search  - <code>ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏ ɪɴ ᴠᴀʀɪᴏᴜs sᴏᴜᴄʀᴇ </code>"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
-<b>NOTE:</b>
+<b>ɴᴏᴛᴇ »</b>
 This module only works for my admins
 
-<b>Commands and Usage:</b>
+<b>ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ᴜsᴀɢᴇ »</b>
 • /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
 • /delete - <code>to delete a specific file from db.</code>
