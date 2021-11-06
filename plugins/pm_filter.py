@@ -73,14 +73,14 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+        return await query.answer("𝑰𝒕𝒔 𝒏𝒐𝒕 𝒇𝒐𝒓 𝒚𝒐𝒖 𝒊𝒇 𝒚𝒐𝒖 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒄𝒉𝒆𝒄𝒌 𝒚𝒐𝒖 𝒉𝒂𝒗𝒆 𝒕𝒐 𝒂𝒔𝒌 𝒕𝒉𝒂𝒕 𝒎𝒐𝒗𝒊𝒆", show_alert=True)
     try:
         offset = int(offset)
     except:
         offset = 0
     search = BUTTONS.get(key)
     if not search:
-        await query.answer("You are using this for one of my old message, please send the request again.",show_alert=True)
+        await query.answer("𝒀𝒐𝒖 𝒂𝒓𝒆 𝒖𝒔𝒊𝒏𝒈 𝒂 𝒐𝒍𝒅 𝒃𝒖𝒕𝒕𝒐𝒏 , 𝑷𝒍𝒆𝒂𝒔𝒆 𝒔𝒆𝒏𝒅 𝒕𝒉𝒆 𝒓𝒆𝒒𝒖𝒆𝒔𝒕 𝒂𝒈𝒂𝒊𝒏..",show_alert=True)
         return
 
     files, n_offset, total = await get_search_results(search, offset=offset, filter=True)
@@ -122,16 +122,16 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📃 Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
+            [InlineKeyboardButton("☜︎︎︎ 𝑩𝑨𝑪𝑲", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📃 Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
         btn.append([InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("☜︎︎︎ 𝑩𝑨𝑪𝑲", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
-                InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("𝑵𝑬𝑿𝑻 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -147,19 +147,19 @@ async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
     if not movies:
-        return await query.answer("You are clicking on an old button which is expired.", show_alert=True)
+        return await query.answer("𝒀𝒐𝒖 𝒂𝒓𝒆 𝒄𝒍𝒊𝒄𝒌𝒊𝒏𝒈 𝒐𝒏 𝒂 𝒐𝒍𝒅 𝒃𝒖𝒕𝒕𝒐𝒏 𝒘𝒉𝒊𝒄𝒉 𝒊𝒔 𝒆𝒙𝒑𝒊𝒓𝒆𝒅...", show_alert=True)
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("okDa", show_alert=True)
+        return await query.answer("𝑰𝒕𝒔 𝒏𝒐𝒕 𝒇𝒐𝒓 𝒚𝒐𝒖 𝒊𝒇 𝒚𝒐𝒖 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒄𝒉𝒆𝒄𝒌 𝒚𝒐𝒖 𝒉𝒂𝒗𝒆 𝒕𝒐 𝒂𝒔𝒌 𝒕𝒉𝒂𝒕 𝒎𝒐𝒗𝒊𝒆", show_alert=True)
     if movie_  == "close_spellcheck":
         return await query.message.delete()
     movie = movies[(int(movie_))]
-    await query.answer('Checking for Movie in database...')
+    await query.answer('𝑪𝒉𝒆𝒄𝒌𝒊𝒏𝒈 𝒎𝒐𝒗𝒊𝒆 𝒊𝒏 𝒎𝒚 𝒅𝒂𝒕𝒂𝒃𝒂𝒔𝒆...')
     files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
     if files:
         k = (movie, files, offset, total_results)
         await auto_filter(bot, query, k)
     else:
-        k = await query.message.edit('This Movie Not Found In DataBase')
+        k = await query.message.edit('𝑺𝒓𝒚 𝒊 𝒄𝒂𝒏𝒕 𝒇𝒊𝒏𝒅 𝒕𝒉𝒂𝒕 𝒎𝒐𝒗𝒊𝒆 𝒇𝒐𝒓 𝒚𝒐𝒖')
         await asyncio.sleep(10)
         await k.delete()
 
@@ -180,7 +180,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat = await client.get_chat(grpid)
                     title = chat.title
                 except:
-                    await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
+                    await query.message.edit_text("𝑴𝒂𝒌𝒆 𝒔𝒖𝒓𝒆 𝒊𝒂𝒎 𝒑𝒓𝒆𝒔𝒆𝒏𝒕 𝒊𝒏 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑", quote=True)
                     return
             else:
                 await query.message.edit_text(
