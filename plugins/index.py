@@ -21,7 +21,7 @@ async def index_files(bot, query):
     if raju == 'reject':
         await query.message.delete()
         await bot.send_message(int(from_user),
-                               f'Your Submission for indexing {chat} has been decliened by our moderators.',
+                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ {chat} ʜᴀs ʙᴇᴇɴ ᴅᴇᴄʟɪɴᴅ ʙʏ @basildmx2 (ʀᴇᴀsᴏɴ » ᴍᴀʏʙᴇ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ʜᴀs ɴᴏ ᴅᴏᴄ,ᴏʀ ᴠɪᴅᴇᴏ «|» ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ)',
                                reply_to_message_id=int(lst_msg_id))
         return
 
@@ -32,7 +32,7 @@ async def index_files(bot, query):
     await query.answer('Processing...⏳', show_alert=True)
     if int(from_user) not in ADMINS:
         await bot.send_message(int(from_user),
-                               f'Your Submission for indexing {chat} has been accepted by our moderators and will be added soon.',
+                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ ᴛʜɪs {chat} ʜᴀs ʙᴇᴇɴ ᴀᴄᴄᴇᴘᴛᴇᴅ ʙʏ @basildmx2 ᴀɴᴅ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ sᴏᴏɴ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ',
                                reply_to_message_id=int(lst_msg_id))
     await msg.edit(
         "Starting Indexing",
@@ -66,7 +66,7 @@ async def send_for_index(bot, message):
     try:
         await bot.get_chat(chat_id)
     except ChannelInvalid:
-        return await message.reply('This may be a private channel / group. Make me an admin over there to index the files.')
+        return await message.reply('ɪ ᴛʜɪɴᴋ ɪᴛs ᴀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ / ɢʀᴏᴜᴘ. (ᴛᴇʟᴇɢʀᴀᴍ ᴏɴʟʏ ᴀʟʟᴏᴡ ᴛᴏ ᴀᴄᴄᴇss ᴍᴇ ɪɴ ᴘᴜʙʟɪᴄ ᴄʜᴀɴɴᴇʟs 🥺 sᴏ ᴍᴀᴋᴇ ᴍᴡ ᴀᴅᴍɪɴ ᴏғ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ (ɪғ ɪᴛs ʏᴏᴜʀs) ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ')
     except (UsernameInvalid, UsernameNotModified):
         return await message.reply('Invalid Link specified.')
     except Exception as e:
@@ -115,7 +115,7 @@ async def send_for_index(bot, message):
     await bot.send_message(LOG_CHANNEL,
                            f'#IndexRequest\n\nBy : {message.from_user.mention} (<code>{message.from_user.id}</code>)\nChat ID/ Username - <code> {chat_id}</code>\nLast Message ID - <code>{last_msg_id}</code>\nInviteLink - {link}',
                            reply_markup=reply_markup)
-    await message.reply('ThankYou For the Contribution, Wait For My Moderators to verify the files.')
+    await message.reply('ᴛʜᴀɴᴋ ʏᴏᴜ ʙʀᴏ ғᴏʀ ʏᴏᴜʀ ɢʀᴇᴀᴛ ʜᴇᴀʀᴛ, ɴᴏᴡ ɪ sᴇɴᴅ ʏᴏᴜʀ ɪɴᴅᴇx ᴍᴇssᴀɢᴇ ᴛᴏ @basildmx2 ᴀɴᴅ ʜᴇ ᴡɪʟʟ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ || ᴡʜᴇɴᴇᴠᴇʀ ɪᴛ ɪs ᴀᴄᴄᴇᴘᴛᴇᴅ ᴏʀ ʀᴇᴊᴇᴄᴛᴇᴅ ɪ ᴡɪʟʟ ɪɴғᴏ ʏᴏᴜ ☺️')
 
 
 @Client.on_message(filters.command('setskip') & filters.user(ADMINS))
