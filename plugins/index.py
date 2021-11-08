@@ -113,7 +113,7 @@ async def send_for_index(bot, message):
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
     await bot.send_message(LOG_CHANNEL,
-                           f'#IndexRequest\n\nBy : {message.from_user.mention} (<code>{message.from_user.id}</code>)\nChat ID/ Username - <code> {chat_id}</code>\nLast Message ID - <code>{last_msg_id}</code>\nInviteLink - {link}',
+                           f'#IndexRequest\n\nBy : {message.from_user.mention} (<code>{message.from_user.id}</code>)\nChat ID/ Username - <code> {chat_id}</code>\nLast Message ID - <code>{last_msg_id}</code>\nInviteLink - {link}\n To Bot:= @lisa_v8inlinebot',
                            reply_markup=reply_markup)
     await message.reply('ᴛʜᴀɴᴋ ʏᴏᴜ ʙʀᴏ ғᴏʀ ʏᴏᴜʀ ɢʀᴇᴀᴛ ʜᴇᴀʀᴛ, ɴᴏᴡ ɪ sᴇɴᴅ ʏᴏᴜʀ ɪɴᴅᴇx ᴍᴇssᴀɢᴇ ᴛᴏ @basildmx2 ᴀɴᴅ ʜᴇ ᴡɪʟʟ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ || ᴡʜᴇɴᴇᴠᴇʀ ɪᴛ ɪs ᴀᴄᴄᴇᴘᴛᴇᴅ ᴏʀ ʀᴇᴊᴇᴄᴛᴇᴅ ɪ ᴡɪʟʟ ɪɴғᴏ ʏᴏᴜ ☺️')
 
