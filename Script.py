@@ -10,10 +10,10 @@ class script(object):
 ✯ ᴠᴇʀsɪᴏɴ » 3
 ✯ ᴅᴀᴛᴀʙᴀsᴇ » <a href=https://www.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a>
 ✯ sᴇʀᴠᴇʀ » <a href=https://signup.heroku.com/login>ʜᴇʀᴏᴋᴜ</a>
-✯ ᴍʏ sᴛᴀᴛᴜs » v8.0.2 [ ᴏɴ ʙᴇᴛᴀ ]"""
+✯ ᴍʏ sᴛᴀᴛᴜs » v8.1.8 [ ᴏɴ ʙᴇᴛᴀ ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝒓𝒆𝒂𝒍𝒍𝒚 𝒔𝒐𝒓𝒓𝒚 𝒊𝒂𝒎 𝒏𝒐𝒕 𝒓𝒆𝒂𝒅𝒚 𝒕𝒐 𝒈𝒊𝒗𝒆 𝒎𝒚 𝒔𝒐𝒖𝒄𝒓𝒆
-- 𝑮𝒓𝒐𝒖𝒑 - https://dmx_chating_2_0 
+- 𝑮𝒓𝒐𝒖𝒑 - https://dmx_chating
 
 <b>ᴄʀᴇᴀᴛᴏʀs »</b>
 - <a href=https://t.me/dmx_bots/4>ᴛᴇᴀᴍ ᴅᴍx</a>"""
@@ -108,7 +108,7 @@ Total Members = <code>{}</code>
 Added By - {}
 """
     LOG_TEXT_P = """#NewUser
-ʙᴏᴛ = #lisa
+ʙᴏᴛ = #tokyo
 ID - <code>{}</code>
 Name - {}
 """
